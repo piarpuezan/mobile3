@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Aplicaciones para Web y Móviles</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maxium-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/jquery.mobile-1.3.2.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/jquery.mobile.theme-1.3.2.min.css">
+    <script src="./assets/jquery-1.10.2.min.js"></script>
+     <script src="./assets/jquery.mobile-1.3.2.min.js"></script>
+   </head>
+<body>
+    <!--Pagina 1-->
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h1> Curso de jQuery Mobile &copy;2013 </h1>
+        </div>
+        <div data-role="content">
+             <img src="./images/html5.jpg"alt="html5" align="middle">
+ <p> El curso de Desarrollo de Aplicaciones para Web y Móviles, ofrece el conocimiento
+práctico y las tecnologías necesarias para crear aplicaciones de alto impacto. La metodología del curso permite un proceso de aprendizaje inductivo y progresivo, guiando al estudiante para que maneje eficientemente los conocimientos adquiridos de manera
+práctica profundizando en las nuevas etiquetas y funciones de HTML5, CSS3 y jQuery y jQuery Mobile.</p> 
+<h4>Objetivos:</h4>
+<p> ● Permitir al aprendiz adquirir conocimientos y herramientas de última generación
+para el desarrollo de aplicaciones web y para dispositivos móviles.</p>
+<p> ● Acompañar al estudiante para que aplique los conocimientos de manera
+progresiva iniciando por conceptos básicos y llegando a un nivel avanzado al
+finalizar el curso</p>
+        </div>
+        <div data-id="PersistentFooter" data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" class="ui-btn-active ui-state-persist">Home</a></li>
+                    <li><a href="#loginpage">login</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#page4">About</a></li>
+                </ul>
+            </div>
+             <p align="center"> Carlos Piarpuezán</p>
+        </div>
+    </div>
+<!--Pagina 2-->
+    <div data-role="page" id="loginpage">
+        <div data-role="header">
+            <h1> Login for App </h1>
+        </div>
+        <div data-role="content">
+                     <form>
+                <label for="user">User:</label>
+                <input type="text" id="user" name="name" value="" placeholder="Your User">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"  value="" >
+            </form>
+            <div data-role="controlgroup" data-type="horizontal" data-mini="true" >
+                <a id="login" data-role="button" data-theme="b">Login</a>
+                <a id="register" data-role="button" href="#registerpage" data-theme="e">Register</a>
+                                    <div  data-role="footer"data-position="fixed">
+                      <div data-role="navbar">
+                          <ul>
+                             <li><a href="#home">Home</a></li>
+                             <li><a href="#loginpage" class="ui-btn-active ui-state-persist">Login</a></li>
+                             <li><a href="#info">Info</a></li>
+                             <li><a href="#page4">About</a></li>
+                           </ul>
+                       </div>
+                       <p align="center"> Carlos Piarpuezán</p>
+                   </div>
+           </div>
+        </div>
+        <div data-id="PersistentFooter" data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#loginpage" class="ui-btn-active ui-state-persist">Login</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#page4">About</a></li>
+                </ul>
+            </div>
+            <p align="center"> Carlos Piarpuezán</p>
+        </div>
+    </div>
+<!--Pagina 3-->
+    <div data-role="page" id="info">
+        <div data-role="header">
+            <h1>
+               Temas del curso
+            </h1>
+<p>El temario consta de cinco (5) unidades cada una estructurada con los temas necesarios
+para desempeñar el proyecto final y construir el producto y aplicación final. </p>
+        </div>
+        <div data-role="content">
+                <ul data-role="listview" data-inset="true" data-filter="true" >
+                    <li><a href="#"> Unidad1:</a></li>
+                    <div data-role="collapsible" data-collapsed="false">
+                       <h2> Aspectos Generales</h2>
+                          <p>● Evolución de HTML y XHTML </p>
+                          <p>● Filosofía HTML5 </p>
+                          <p>● La verdadera especificación de HTML5 </p>
+                          <p>● Qué es CSS, CSS2 y CSS3. </p>
+                          <p>● La verdadera especificación de CSS3. </p>
+                        <h2>Primeros pasos con HTML5</h2>
+                          <p>● Declaración de documento (DOCTYPE) </p>
+                          <p>● Estructura básica (Head, Title, Body) </p>
+                          <p>● ormato principal </p>
+                          <p>● Nuevas etiquetas de estructura </p>
+                          <p>● Elementos gráficos </p>
+                          <p>● Layout </p>
+                          <p>● Anclas</p>
+                          <p>● Formatos de video y audio </p>
+                          <p>● Formularios </p>
+                          <p>● Semántica</p>
+                          <p>● SEO en HTML5 </p>
+                       <h2>Primeros Pasos con CSS</h2>
+                          <p>● Selectores</p>
+                          <p>● CSS3 Color</p>
+                          <p>● Round corners</p>
+                          <p>● Drop y Inset Shadows</p>
+                          <p>● Text shadows</p>
+                          <p>● Gradients</p>
+                          <p>● Color y Opacity</p>
+                          <p>● Transformaciones (Rotate, Scale, Translate)</p>
+                          <p>● Border Image</p>
+                          <p>● Reflection</p>
+                          <p>● Mascaras (masks)</p>
+                          <p>● Transiciones</p>
+                          <p>● Keyframe animations</p>
+                          <p>● Layouts</p>
+                          <p>● Web Fonts @fontface</p>
+                          <p>● Font Services</p>
+                    </div>
+                     <li><a href="#">Unidad 2:</a></li>
+                            <div data-role="collapsible" data-collapsed="false">
+                                <h2>Introducción a JavaScript</h2>
+                                  <p>● Qué es ECMAScript</p> 
+                                  <p>● El Document Object Model (DOM)</p>                                  
+                                  <p>● El Browser Object Model (BOM)</p>
+                                  <p>● JavaScript en HTML y HTML5</p>
+                                  <p>● Sintaxis</p>
+                                  <p>● Tipos de datos</p> 
+                                  <p>● Operadores</p>                                  
+                                  <p>● Declaraciones (if, else, while, for)</p>
+                                  <p>● Funciones</p>
+                                  <p>● Las variables, el alcance (scope), y la memoria</p>
+                                  <p>● El objeto Type</p>                                  
+                                  <p>● Programación Orientada por Objetos (POO)</p>
+                                  <p>● Funciones Anónimas</p>
+                                  <p>● El objeto Browser</p>
+                                  <p>● Eventos</p>                                  
+                                  <p>● Callbacks</p>
+                                  <p>● ¿Qué es JQuery?</p>
+                                  <p>● Diferencia entre JQuery y JQuery Mobile</p>
+                                  <p>● Selectores y Filtros</p>
+                                  <p>● Selectores de formulario</p>                                  
+                                  <p>● Trabajar con CSS</p>
+                                  <p>● Inserción de contenido y atributos</p>
+                                  <p>● Eventos de mouse</p>
+                                  <p>● Ocultar y mostrar elementos</p>
+                                  <p>● Animaciones personalizadas</p>
+                                  <p>● JQuery UI</p>
+                                  <p>● Widgets</p>
+                                  <p>● Efectos</p>
+                            </div>
+                            <li><a href="#">Unidad 3:</a></li>
+                            <div data-role="collapsible" data-collapsed="false">
+                            <h2>Responsive Design y desarrollo para dispositivos móviles</h2>
+                                  <p>● Introducción al concepto de Responsive Design</p> 
+                                  <p>● Media Queries</p>                                  
+                                  <p>● Layouts Fluidos</p>
+                                  <p>● HTML5 para Responsive Design</p>
+                                  <p>● CSS3 y el Responsive Design</p>
+                                  <p>● Frameworks con Responsive Design</p> 
+                                  <p>● Introducción a los dispositivos móviles</p>                                  
+                                  <p>● Clases de dispositivos móviles</p>
+                                  <p>● Lenguajes Nativos</p>
+                                  <p>● Aplicaciones construidas con HTML5</p>
+                                  <p>--Motores de renderizado: Gecko, WebKit, Trident</p>                                  
+                                  <p>--Qué es PhoneGap?</p>
+                                  <p>--Por qué usar PhoneGap?</p>
+                                  <p>● jQuery Mobile</p>
+                                  <p>--Primeros pasos con jQuery Mobile</p>
+                                  <p>--jQuery Mobile Pages</p>
+                                  <p>--jQuery Mobile Headers, Footers and Toolbars</p>
+                                  <p>--jQuery Mobile Listas</p>
+                                  <p>--jQuery Mobile Formularios</p>
+                                  <p>--jQuery Mobile Diálogos, grillas</p>
+                                  <p>--jQuery Mobile Utilidades y métodos</p>
+                                  <p>--jQuery Mobile Trabajando con eventos</p>
+                                  <p>● Usando Phonegap para construir nuestra primera aplicación móvil</p>
+                           </div>
+                    <li><a href="#">Unidad 4:  </a></li>
+                    <div data-role="collapsible" data-collapsed="false">
+                            <h2>Node.JS y Framework en JavaScript</h2>
+                                  <p>● Introducción: Introducción a Javascript del lado del Servidor</p> 
+                                  <p>● Peticiones HTTP y servidores web</p>                                  
+                                  <p>● Que es un WAMP, LAMP y MAMP</p>
+                                  <p>● Qué son los hosting, PaaS, SaaS, VPS y Cloud</p>
+                                  <p>● ¿Qué es Node.JS?</p>
+                                  <p>● ¿Por qué Node.JS?</p> 
+                                  <p>● Instalación de Node.JS</p>                                  
+                                  <p>● Primeros pasos con Node.JS</p>
+                                  <p>●ExpressJS (Framework Web)</p>
+                                  <p>--Primeros pasos con ExpressJS</p>                                  
+                                  <p>--Estructura de una aplicación con ExpressJS y Node.JS</p>
+                                  <p>--Sesiones con ExpressJS y Node.JS</p>
+                                  <p>--Construcción de una pequeña aplicación con Node.JS</p>
+                                  <p>● Eventos en tiempo real con Socket.io y Node.JS</p>
+                                  </div>
+
+                        <li><a href="#">UNIDAD 5: </a> </li>
+                        <div data-role="collapsible" data-collapsed="false">
+                            <h2>Construcción de una aplicación para móviles</h2>
+                                       <p>● Sistemas de Control de Versiones</p>
+                                       <p>-- Qué es Git?</p>
+                                       <p>-- Instalando Git</p>
+                                       <p>-- Primeros pasos con Git</p>
+                                       <p>--Repositorios remotos y servidores</p>	
+                                       <p>--Ramas</p>
+                                       <p>● Dando versiones al software</p>
+                                       <p>● Construyendo la estructura de la aplicación</p>
+                                       <p>● Desarrollar la aplicación</p>
+                                       <p>● Desplegar la aplicación</p>
+                              </div>
+                   </ul>
+
+      </div>
+        <div data-id="PersistentFooter" data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#loginpage">Login</a></li>
+                    <li><a href="#info" class="ui-btn-active ui-state-persist">Info</a></li>
+                    <li><a href="#page4">About</a></li>
+                </ul>
+            </div>
+            <p align="center"> Carlos Piarpuezán</p>
+                </div>
+    </div>
+<!--Pagina 4-->
+
+     <div data-role="page" id="page4">
+        <div data-role="header">
+            <h1>
+               Duración de las Unidades
+            </h1>
+        </div>
+        <div data-role="content">
+            <p>Unidad 1: Unidad 1: Aspectos Generales (10 Horas) </p>
+            <p>Unidad 2: Introducción a JavaScript (10 Horas)</p>
+            <p>Unidad 3: Responsive Design y desarrollo para dispositivos móviles (10 Horas)</p>
+            <p>Unidad 4: Node.JS y Framework en JavaScript (10 Horas)</p>
+            <p>Unidad 5: Construcción de una aplicación para móviles (10 Horas)</p>
+            <h2>Tecnologías</h2>
+            <!--<img src="./images/html.jpg"alt="html5" align="middle"> -->
+            <img src="./images/tecnologias.jpg"alt="html5" align="middle">
+            <h2>Dirigido a:</h2>
+            <p>Diseñadores Gráficos con habilidades de desarrollo, Diseñadores Web, Diseñadores
+               Interactivos, Desarrolladores, estudiantes, profesionales o cualquier persona afín con el
+               desarrollo de software.</p>
+
+            <div  data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#loginpage">Login</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#page4" class="ui-btn-active ui-state-persist">About</a></li>
+                </ul>
+            </div>
+          </div>
+    </div>
+    </body>
+</html>
